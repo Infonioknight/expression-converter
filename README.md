@@ -6,7 +6,7 @@ This app can be used to convert expressions between the three possible forms (In
 
 ### 1. Clone the repository in your local machine.
 ```
-git clone git@github.com:Infonioknight/expression-converter.git
+git clone https://github.com/Infonioknight/expression-converter.git
 ```
 
 ### 2. Install dependencies, start backend (flask server)
