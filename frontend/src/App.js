@@ -81,10 +81,7 @@ function App() {
           <label className='input-title'>Output:</label>
           <p className='result'>{outputExpression.length > 0 ? outputExpression : 'Enter Input and Convert!'}</p>
 
-          <button className='compute' onClick={handleSubmit}>Convert!</button>
-
-
-          
+          <button className='compute' disabled={!inputExpression} onClick={handleSubmit}>Convert!</button>        
         </form>
       </div>
     </div>
